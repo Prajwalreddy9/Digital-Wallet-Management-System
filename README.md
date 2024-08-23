@@ -1,10 +1,13 @@
-A Digital Wallet Management System is a software platform that allows users to manage their financial transactions digitally. It enables transferring and receiving funds, and viewing account balances. This system ensures secure, fast, and convenient transactions, streamlining financial management for users.
+Digital Wallet Management System
+Overview
+The Digital Wallet Management System is a software platform designed to simplify and streamline financial transactions. This system allows users to manage their digital wallets by transferring and receiving funds, viewing account balances, and handling transactions securely and efficiently.
 
-Requirements :
-
-List of users with their initial balances
-List of transactions including adding funds.
-Results :
-
-For each transaction, provide a confirmation of success or failure.
-After completing all transactions, sort and display users based on leftover balance.
+Features
+User Management: Maintain a list of users with their initial balances.
+Transaction Handling: Process transactions to add funds and transfer money between users.
+Balance Management: View and manage account balances for all users.
+Transaction Confirmation: Receive confirmation for each transaction to verify success or failure.
+Sorted Balances: Display users sorted by their leftover balances after all transactions are processed.
+Requirements
+List of Users: Each user is identified by a unique ID and has an initial balance.
+List of Transactions: Transactions include adding funds or transferring money between users.
