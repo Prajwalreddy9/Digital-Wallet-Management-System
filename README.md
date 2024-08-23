@@ -2,17 +2,24 @@
 
 ## Overview
 
-The **Digital Wallet Management System** is a robust software platform that allows users to manage their financial transactions digitally. The system supports fund transfers, balance inquiries, and secure transactions to streamline financial management.
+The Digital Wallet Management System is a C++ application designed to manage user accounts and transactions within a digital wallet. The system supports adding funds, transferring money between users, and displaying user balances in a sorted order.
 
 ## Features
 
-- **User Management**: Handle a list of users with their initial balances.
-- **Transaction Handling**: Support for adding funds and transferring money between users.
-- **Balance Management**: View and update account balances.
-- **Transaction Confirmation**: Get success or failure confirmations for each transaction.
-- **Sorted Balances**: Display users sorted by their remaining balances after all transactions.
+- **User Management**: Initialize user accounts with unique IDs and starting balances.
+- **Transaction Processing**: Handle fund transfers between users and provide success or failure feedback.
+- **Balance Display**: Sort and display user balances in ascending order.
 
-## Requirements
+## How It Works
 
-- **List of Users**: Users are identified by unique IDs with initial balances.
-- **List of Transactions**: Includes fund additions and transfers between users.
+### Input
+
+1. **Number of Users (N)**: The first input specifies the number of users.
+2. **User Data**: For each user, input their unique ID and initial balance.
+3. **Number of Transactions (T)**: The second input specifies the number of transactions.
+4. **Transaction Details**: For each transaction, input the ID of the sender, the ID of the receiver, and the amount to transfer.
+
+### Output
+
+- **Transaction Status**: After each transaction, output "Success" if the transfer was successful, or "Failure" if there was insufficient balance.
+- **Sorted Balances**: After processing all transactions, output the user IDs and their remaining balances, sorted in ascending order of balances.
